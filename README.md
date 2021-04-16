@@ -27,7 +27,8 @@ OpenWeather API - https://openweathermap.org/current
     "temp_max": 284.26,
     "pressure": 1023,
     "humidity": 100
-  },```
+  },
+  ```
 
 ## Wireframes
 
