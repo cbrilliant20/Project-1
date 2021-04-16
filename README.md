@@ -40,18 +40,14 @@ PostMVP
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
 |April 19| Project Approval | Incomplete
-|April 20| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|April 20| Pseudocode / actual code | Incomplete
-|April 21| Initial Clickable Model  | Incomplete
-|April 22| MVP | Incomplete
+|April 20| Core HTML and JS PsuedoCode | Incomplete
+|April 20| JS Code, API | Incomplete
+|April 21| Core App Finalized, Base CSS Themes  | Incomplete
+|April 22| Dyanmic CSS, MVP | Incomplete
 |April 23| Presentations | Incomplete
 
 ## Priority Matrix
