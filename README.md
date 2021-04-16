@@ -11,15 +11,7 @@ The Weather App will take a location (city or zipcode) inputted by a user and re
 ## API and Data Sample
 
 OpenWeather API - https://openweathermap.org/current
-```"weather": [
-    {
-      "id": 800,
-      "main": "Clear",
-      "description": "clear sky",
-      "icon": "01d"
-    }
-  ],
-  "base": "stations",
+```
   "main": {
     "temp": 282.55,
     "feels_like": 281.86,
