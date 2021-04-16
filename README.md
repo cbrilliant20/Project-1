@@ -24,24 +24,19 @@ OpenWeather API - https://openweathermap.org/current
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+*** https://wireframe.cc/bVdiov ***
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+MVP
+- Use OpenWeather API for location based weather data
+- Leverage user inputted location field to retrieve desired weather information
+- Drop down for incompleted string inputs (I.e. User Input = Salem, drop down menu for all options containing Salem.)
+- Dynamic page styling based on current weather status
 
-#### MVP 
-*These are examples only. Replace with your own MVP features.*
-
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
-
-#### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
-
-- Add second API
-- Use local storage to save user favorites
+PostMVP
+- 5 Day forecast
+- Interactive Weather Map
 
 ## Project Schedule
 
