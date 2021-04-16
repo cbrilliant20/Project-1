@@ -2,15 +2,32 @@
 
 ## Project Name
 
-The name of your project with deployed URL.
+Weather App
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+The Weather App will take a location (city or zipcode) inputted by a user and return the current weather for that geo.  By leveraging the OpenWeather API, we can ensure our users are recieving the most up to date weather information avaialable. 
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+OpenWeather API - https://openweathermap.org/current
+```"weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 282.55,
+    "feels_like": 281.86,
+    "temp_min": 280.37,
+    "temp_max": 284.26,
+    "pressure": 1023,
+    "humidity": 100
+  },```
 
 ## Wireframes
 
