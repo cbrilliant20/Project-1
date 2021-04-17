@@ -6,7 +6,7 @@ Weather App
 
 ## Project Description
 
-The Weather App will take a location (city or zipcode) inputted by a user and return the current weather for that geo.  By leveraging the OpenWeather API, we can ensure our users are recieving the most up to date weather information avaialable. 
+The Weather App will take a location (city or zipcode) input from a user and return the current weather for that geo.  By leveraging the OpenWeather API, we can ensure our users are recieving the most up to date weather information avaialable. 
 
 ## API and Data Sample
 
@@ -31,10 +31,10 @@ OpenWeather API - https://openweathermap.org/current
 MVP
 - Use OpenWeather API for location based weather data
 - Leverage user inputted location field to retrieve desired weather information
-- Drop down for incompleted string inputs (I.e. User Input = Salem, drop down menu for all options containing Salem.)
 - Dynamic page styling based on current weather status
 
 PostMVP
+- Drop down for incompleted string inputs (I.e. User Input = Salem, drop down menu for all options containing Salem.)
 - 5 Day forecast
 - Interactive Weather Map
 
