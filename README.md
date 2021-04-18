@@ -64,11 +64,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | PsuedoCode | H | 1hr| TBD | TBD |
 | HTML Structure | H | 1hr| TBD | TBD |
-| API Setup | H | 3hrs| TBD | TBD |
-| Search Functionality | H | 3hrs| TBD | TBD |
-| API Endpoints | H | 4hrs| TBD | TBD |
+| API Setup | H | 3hrs | TBD | TBD |
+| Search Functionality | H | 4hrs| TBD | TBD |
+| API Endpoints | H | 6hrs| TBD | TBD |
 | Styling | H | 6hr| TBD | TBD |
-| Total | H | 6hrs| TBD | TBD |
+| Total | H | 21hrs| TBD | TBD |
 
 ## Code Snippet
 
