@@ -62,9 +62,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| PsuedoCode | H | 1hr| TBD | TBD |
+| HTML Structure | H | 1hr| TBD | TBD |
+| API Setup | H | 3hrs| TBD | TBD |
+| Search Functionality | H | 3hrs| TBD | TBD |
+| API Endpoints | H | 4hrs| TBD | TBD |
+| Styling | H | 6hr| TBD | TBD |
+| Total | H | 6hrs| TBD | TBD |
 
 ## Code Snippet
 
