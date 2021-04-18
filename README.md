@@ -52,7 +52,7 @@ PostMVP
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+https://wireframe.cc/FAdp0A
 
 ## Timeframes
 
