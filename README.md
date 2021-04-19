@@ -58,8 +58,8 @@ https://wireframe.cc/FAdp0A
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Project Approval | H | 2hr| TBD | TBD |
-| API Research | H | 3hr| TBD | TBD |
+| Project Approval | H | 2hr| 2hr | 2hr |
+| API Research | H | 3hr| 2hr | 4hr |
 | PsuedoCode | H | 2hr| TBD | TBD |
 | HTML Structure | H | 2hr| TBD | TBD |
 | API Setup | H | 3hrs | TBD | TBD |
