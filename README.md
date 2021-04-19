@@ -29,7 +29,7 @@ OpenWeather API - https://openweathermap.org/current
 ### MVP/PostMVP
 
 MVP
-- Use OpenWeather API for location based weather data
+- Use OpenWeather API for location based weather data. Data to be used outline in wireframe. 
 - Leverage user inputted location field to retrieve desired weather information
 - Dynamic page styling based on current weather status
 
@@ -58,13 +58,17 @@ https://wireframe.cc/FAdp0A
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| PsuedoCode | H | 1hr| TBD | TBD |
-| HTML Structure | H | 1hr| TBD | TBD |
+| PsuedoCode | H | 2hr| TBD | TBD |
+| HTML Structure | H | 2hr| TBD | TBD |
 | API Setup | H | 3hrs | TBD | TBD |
-| Search Functionality | H | 4hrs| TBD | TBD |
-| API Endpoints | H | 6hrs| TBD | TBD |
-| Styling | H | 6hr| TBD | TBD |
-| Total | H | 21hrs| TBD | TBD |
+| Search Functionality | H | 3hrs| TBD | TBD |
+| API - Mainbox, city/description/icon | H | 3hrs| TBD | TBD |
+| API - Bottom cards | H | 3hr| TBD | TBD |
+| Append to DOM | H | 3hrs| TBD | TBD |
+| Styling backgrounds | L | 3hr| TBD | TBD |
+| Styling cards | L | 2hr| TBD | TBD |
+| Styling fonts, formating etc. | L | 3hr| TBD | TBD |
+| Total | H | 27hrs| TBD | TBD |
 
 ## Code Snippet
 
