@@ -6,6 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: cornsilk;
 }
 
 .search-section {
@@ -13,4 +14,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 100px;
 }
+
+.main-card {
+  height: 200px;
+  width: 40vw;
+  border: 1px solid black;
+  text-align: center;
+  margin: 40px auto;
+}
+
+

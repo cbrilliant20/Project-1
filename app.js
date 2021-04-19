@@ -9,6 +9,7 @@ const searchLocation = async () => {
   try {
     let inputValue = document.querySelector(`#input`).value
     let response = await axios.get(`${DOMAIN}q=${inputValue}${API_KEY}${UNIT}`)
+    showWeatherData(response.data)
     console.log(response.data)
   } catch (error) {
     console.error(error)
@@ -18,7 +19,15 @@ const searchLocation = async () => {
 searchLocation()
 
 // Display Endpoint Data
-const showWeatherData = (data) => {}
+const showWeatherData = (data) => {
+  let mainCard = `
+  <h1 id="main-data">${data.name}<br>Feels Like: ${data.main.feels_like}</h1> 
+  ` //  <i>${data.weather.icon}</i>
+  document
+    .querySelector(`.main-card`)
+    .insertAdjacentHTML(`afterbegin`, mainCard)
+}
+
 // Changing Background Images
 
 // Event Listener
