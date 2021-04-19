@@ -61,7 +61,7 @@ https://wireframe.cc/FAdp0A
 | Project Approval | H | 2hr| 2hr | 2hr |
 | API Research | H | 3hr| 2hr | 4hr |
 | PsuedoCode | H | 2hr| TBD | TBD |
-| HTML Structure | H | 2hr| TBD | TBD |
+| HTML Structure | H | 2hr| 2hr | 2hr |
 | API Setup | H | 3hrs | TBD | TBD |
 | Search Functionality | H | 3hrs| TBD | TBD |
 | API - Mainbox, city/description/icon | H | 3hrs| TBD | TBD |
