@@ -31,7 +31,7 @@ OpenWeather API - https://openweathermap.org/current
 MVP
 - Use OpenWeather API for location based weather data. Data to be used outline in wireframe. 
 - Leverage user inputted location field to retrieve desired weather information
-- Dynamic page styling based on current weather status
+- Update page background based on current wearther description.  I.e.  Clear Sky changes to a background iamge of a clear sky.
 
 PostMVP
 - Drop down for incompleted string inputs (I.e. User Input = Salem, drop down menu for all options containing Salem.)
