@@ -58,6 +58,8 @@ https://wireframe.cc/FAdp0A
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
+| Project Approval | H | 2hr| TBD | TBD |
+| API Research | H | 3hr| TBD | TBD |
 | PsuedoCode | H | 2hr| TBD | TBD |
 | HTML Structure | H | 2hr| TBD | TBD |
 | API Setup | H | 3hrs | TBD | TBD |
@@ -68,7 +70,8 @@ https://wireframe.cc/FAdp0A
 | Styling backgrounds | L | 3hr| TBD | TBD |
 | Styling cards | L | 2hr| TBD | TBD |
 | Styling fonts, formating etc. | L | 3hr| TBD | TBD |
-| Total | H | 27hrs| TBD | TBD |
+| Styling Form | H | 3hr| TBD | TBD |
+| Total | H | 35hrs| TBD | TBD |
 
 ## Code Snippet
 
