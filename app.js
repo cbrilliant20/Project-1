@@ -34,27 +34,27 @@ const showWeatherData = (data) => {
     .insertAdjacentHTML(`afterbegin`, mainCard)
 
   let card1 = `
-  <h3 id="main-temp">Current Temperature: ${data.main.temp}°</h3>
+  <h3 id="main-temp">Current:<br> <span>${data.main.temp}°</span></h3>
   `
   document.querySelector(`.card-1`).insertAdjacentHTML(`afterbegin`, card1)
 
   let card2 = `
-  <h3 id="feels-like">Feels Like: ${data.main.feels_like}°</h3>
+  <h3 id="feels-like">Feels Like:<br> <span>${data.main.feels_like}°</span></h3>
   `
   document.querySelector(`.card-2`).insertAdjacentHTML(`afterbegin`, card2)
 
   let card3 = `
-  <h3 id="humidity">Humidity: ${data.main.humidity}%</h3>
+  <h3 id="humidity">Humidity:<br> <span>${data.main.humidity}%</span></h3>
   `
   document.querySelector(`.card-3`).insertAdjacentHTML(`afterbegin`, card3)
 
   let card4 = `
-  <h3 id="wind">Wind Speed: ${data.wind.speed} mph</h3>
+  <h3 id="wind">Wind Speed:<br> <span>${data.wind.speed} mph</span></h3>
   `
   document.querySelector(`.card-4`).insertAdjacentHTML(`afterbegin`, card4)
 
   let card5 = `
-  <h3 id="min-max">High/Low: ${data.main.temp_min}° / ${data.main.temp_max}°</h3>
+  <h3 id="min-max">High/Low:<br> <span>${data.main.temp_min}°/${data.main.temp_max}°</span></h3>
   `
   document.querySelector(`.card-5`).insertAdjacentHTML(`afterbegin`, card5)
 }
