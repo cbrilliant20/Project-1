@@ -78,11 +78,11 @@ let changeBackground = (data) => {
   let backImage = document.querySelector(".body")
   if (`${data.weather[0].main}` === `Clouds`) {
     backImage.style.backgroundImage = `url(
-      "https://images.unsplash.com/photo-1499346030926-9a72daac6c63?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+      "https://images.unsplash.com/photo-1504253163759-c23fccaebb55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
     )`
   } else if (`${data.weather[0].main}` === `Clear`) {
     backImage.style.backgroundImage = `url(
-      "https://images.unsplash.com/photo-1503453363464-743ee9ce1584?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80"
+      "https://images.pexels.com/photos/585759/pexels-photo-585759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     )`
   } else if (`${data.weather[0].main}` === `Rain`) {
     backImage.style.backgroundImage = `url(
@@ -94,7 +94,7 @@ let changeBackground = (data) => {
     )`
   } else if (`${data.weather[0].main}` === `Snow`) {
     backImage.style.backgroundImage = `url(
-      "https://images.unsplash.com/photo-1453489629239-2d15752eb271?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2089&q=80"
+      "https://images.pexels.com/photos/3334585/pexels-photo-3334585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     )`
   }
 }
