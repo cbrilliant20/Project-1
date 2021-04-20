@@ -26,6 +26,8 @@ searchLocation()
 
 // Display Endpoint Data
 const showWeatherData = (data) => {
+  removeMain()
+  // removeCard()
   let mainCard = `
   <h1 id="main-data">${data.name}<br><small>Current Conditions: ${data.weather[0].main}</small></h1> 
   ` // <i>${data.weather[0].icon}</i>
@@ -66,11 +68,25 @@ const showWeatherData = (data) => {
 const searchButton = document.querySelector(`#search-button`)
 searchButton.addEventListener("click", searchLocation)
 
-// Clear
+const removeMain = () => {
+  const removeData = document.querySelector(".main-card")
+  while (removeData.lastChild) {
+    removeData.removeChild(removeData.lastChild)
+  }
+}
 
-// const removeWeather = () => {
-//   const removeData = document.querySelector(".main-card", ".card")
-//   while (removeData.lastChild) {
-//     removeData.removeChild(removeData.lastChild)
+// const removeCard = () => {
+//   const removeData = document.getElementsByTagName("h3")
+//   while (removeData.firstChild) {
+//     removeData.removeChild(removeData.firstChild)
+//   }
+// }
+
+// const removeCard = () => {
+//   const removeCard = document.getElementsByClassName(".card")
+//   for (let i = 0; i < removeCard.length; i++) {
+//     while (removeCard.children) {
+//       removeCard.removeChild(removeCard.children)
+//     }
 //   }
 // }
