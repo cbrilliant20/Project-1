@@ -41,7 +41,6 @@ const showWeatherData = (data) => {
   <h3 id="wind" class="card">Wind:<br> <span>${data.wind.speed} mph</span></h3>
   <h3 id="min-max" class="card">High/Low:<br> <span>${data.main.temp_min}°/${data.main.temp_max}°</span></h3>
   `
-
   document
     .querySelector(`.card-container`)
     .insertAdjacentHTML(`afterbegin`, cards)
@@ -69,7 +68,6 @@ const removeMain = () => {
     }
   }
 }
-
 
 // Changing Background Images
 
