@@ -29,14 +29,12 @@ searchLocation()
 const showWeatherData = (data) => {
   removeCard()
   removeMain()
-
   let mainCard = `
   <h1 id="main-data">${data.name}<br><small>Current Conditions: ${data.weather[0].main}</small></h1> 
   `
   document
     .querySelector(`.main-card`)
     .insertAdjacentHTML(`afterbegin`, mainCard)
-
   let cards = `
   <h3 id="main-temp" class="card">Current:<br> <span>${data.main.temp}°</span></h3>
   <h3 id="feels-like" class="card">Feels Like:<br> <span>${data.main.feels_like}°</span></h3>
@@ -47,26 +45,6 @@ const showWeatherData = (data) => {
   document
     .querySelector(`.card-container`)
     .insertAdjacentHTML(`afterbegin`, cards)
-
-  // let card2 = `
-  // <h3 id="feels-like">Feels Like:<br> <span>${data.main.feels_like}°</span></h3>
-  // `
-  // document.querySelector(`.card-2`).insertAdjacentHTML(`afterbegin`, card2)
-
-  // let card3 = `
-  // <h3 id="humidity">Humidity:<br> <span>${data.main.humidity}%</span></h3>
-  // `
-  // document.querySelector(`.card-3`).insertAdjacentHTML(`afterbegin`, card3)
-
-  // let card4 = `
-  // <h3 id="wind">Wind Speed:<br> <span>${data.wind.speed} mph</span></h3>
-  // `
-  // document.querySelector(`.card-4`).insertAdjacentHTML(`afterbegin`, card4)
-
-  // let card5 = `
-  // <h3 id="min-max">High/Low:<br> <span>${data.main.temp_min}°/${data.main.temp_max}°</span></h3>
-  // `
-  // document.querySelector(`.card-5`).insertAdjacentHTML(`afterbegin`, card5)
 }
 
 // Event Listener
@@ -92,13 +70,6 @@ const removeCard = () => {
     }
   }
 }
-
-// const removeCard = () => {
-//   const removeData = document.getElementsByTagName("h3")
-//   while (removeData.firstChild) {
-//     removeData.removeChild(removeData.firstChild)
-//   }
-// }
 
 // Changing Background Images
 
