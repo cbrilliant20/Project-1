@@ -8,6 +8,7 @@ const UNIT = `&units=imperial`
 const searchLocation = async () => {
   try {
     let inputValue = document.querySelector(`#input`).value
+    document.querySelector(`#input`).value = ""
     if (inputValue === "") {
       return null
     } else {
@@ -28,7 +29,6 @@ searchLocation()
 // Display Endpoint Data
 const showWeatherData = (data) => {
   removeMain()
-
   // removeCard()
   let mainCard = `
   <h1 id="main-data">${data.name}<br><small>Current Conditions: ${data.weather[0].main}</small></h1> 
@@ -65,8 +65,11 @@ const showWeatherData = (data) => {
 
 // Event Listener
 
-const searchButton = document.querySelector(`#search-button`)
-searchButton.addEventListener("click", searchLocation)
+const searchButton = document.querySelector(`form`)
+searchButton.addEventListener("submit", (e) => {
+  e.preventDefault()
+  searchLocation()
+})
 
 // Remove
 const removeMain = () => {
@@ -117,5 +120,4 @@ let changeBackground = (data) => {
       "https://images.unsplash.com/photo-1453489629239-2d15752eb271?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2089&q=80"
     )`
   }
-  // console.log(data.weather[0].main)
 }
