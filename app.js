@@ -27,7 +27,6 @@ searchLocation()
 
 // Display Endpoint Data
 const showWeatherData = (data) => {
-  removeCard()
   removeMain()
   let mainCard = `
   <h1 id="main-data">${data.name}<br><small><span>Current Conditions: ${data.weather[0].main}</span></small></h1> 
@@ -39,9 +38,10 @@ const showWeatherData = (data) => {
   <h3 id="main-temp" class="card">Current:<br> <span>${data.main.temp}°</span></h3>
   <h3 id="feels-like" class="card">Feels Like:<br> <span>${data.main.feels_like}°</span></h3>
   <h3 id="humidity" class="card">Humidity:<br> <span>${data.main.humidity}%</span></h3>
-  <h3 id="wind" class="card">Wind Speed:<br> <span>${data.wind.speed} mph</span></h3>
+  <h3 id="wind" class="card">Wind:<br> <span>${data.wind.speed} mph</span></h3>
   <h3 id="min-max" class="card">High/Low:<br> <span>${data.main.temp_min}°/${data.main.temp_max}°</span></h3>
   `
+
   document
     .querySelector(`.card-container`)
     .insertAdjacentHTML(`afterbegin`, cards)
@@ -62,8 +62,6 @@ const removeMain = () => {
   while (removeData.lastChild) {
     removeData.removeChild(removeData.lastChild)
   }
-}
-const removeCard = () => {
   const removeCard = document.querySelectorAll(".card-container")
   for (let i = 0; i < removeCard.length; i++) {
     while (removeCard[i].firstChild) {
@@ -71,6 +69,7 @@ const removeCard = () => {
     }
   }
 }
+
 
 // Changing Background Images
 

@@ -68,7 +68,7 @@ button i {
 .card {
   height: 200px;
   width: 15%;
-  background-color: rgb(223, 223, 222, 0.8);
+  background-color: rgb(223, 223, 222, 0.9);
   border-radius: 20px;
   color: rgb(60, 60, 60);
   text-align: center;
@@ -82,6 +82,7 @@ button i {
 }
 
 span {
-  font-size: 25px;
+  font-size: 22px;
   color: rgb(24, 52, 99);
+  padding: 20px 0;
 }
