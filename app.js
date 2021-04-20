@@ -30,7 +30,7 @@ const showWeatherData = (data) => {
   removeCard()
   removeMain()
   let mainCard = `
-  <h1 id="main-data">${data.name}<br><small>Current Conditions: ${data.weather[0].main}</small></h1> 
+  <h1 id="main-data">${data.name}<br><small><span>Current Conditions: ${data.weather[0].main}</span></small></h1> 
   `
   document
     .querySelector(`.main-card`)
@@ -56,6 +56,7 @@ searchButton.addEventListener("submit", (e) => {
 })
 
 // Remove
+
 const removeMain = () => {
   const removeData = document.querySelector(".main-card")
   while (removeData.lastChild) {
