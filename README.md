@@ -45,12 +45,12 @@ PostMVP
 
 | Day         | Deliverable                                        | Status     |
 | ----------- | -------------------------------------------------- | ---------- |
-| April 16-18 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
-| April 19    | Project Approval                                   | Incomplete |
-| April 20    | Core HTML and JS PsuedoCode                        | Incomplete |
-| April 20    | JS Code, API                                       | Incomplete |
-| April 21    | Core App Finalized, Base CSS Themes                | Incomplete |
-| April 22    | Dyanmic CSS, MVP                                   | Incomplete |
+| April 16-18 | Prompt / Wireframes / Priority Matrix / Timeframes | Complete   |
+| April 19    | Project Approval                                   | Complete   |
+| April 20    | Core HTML and JS PsuedoCode                        | Complete   |
+| April 20    | JS Code, API                                       | Complete   |
+| April 21    | Core App Finalized, Base CSS Themes                | Complete   |
+| April 22    | Dyanmic CSS, MVP                                   | Complete   |
 | April 23    | Presentations                                      | Incomplete |
 
 ## Priority Matrix
@@ -67,14 +67,14 @@ https://wireframe.cc/FAdp0A
 | HTML Structure                       |    H     |      2hr       |      2hr      |     2hr     |
 | API Setup                            |    H     |      3hrs      |      3HR      |     TBD     |
 | Search Functionality                 |    H     |      3hrs      |      2HR      |     TBD     |
-| API - Mainbox, city/description/icon |    H     |      3hrs      |      TBD      |     TBD     |
-| API - Bottom cards                   |    H     |      3hr       |      TBD      |     TBD     |
-| Append to DOM                        |    H     |      3hrs      |      TBD      |     TBD     |
-| Styling backgrounds                  |    L     |      3hr       |      TBD      |     TBD     |
-| Styling cards                        |    L     |      2hr       |      TBD      |     TBD     |
-| Styling fonts, formating etc.        |    L     |      3hr       |      TBD      |     TBD     |
-| Styling Form                         |    H     |      3hr       |      TBD      |     TBD     |
-| Total                                |    H     |     35hrs      |      TBD      |     TBD     |
+| API - Mainbox, city/description/icon |    H     |      3hrs      |      2HR      |     TBD     |
+| API - Bottom cards                   |    H     |      3hr       |      3HR      |     TBD     |
+| Append to DOM                        |    H     |      3hrs      |      1HR      |     TBD     |
+| Styling backgrounds                  |    L     |      3hr       |      2HR      |     TBD     |
+| Styling cards                        |    L     |      2hr       |      2HR      |     TBD     |
+| Styling fonts, formating etc.        |    L     |      3hr       |      3HR      |     TBD     |
+| Styling Form                         |    H     |      3hr       |      3HR      |     TBD     |
+| Total                                |    H     |     35hrs      |     28hr      |     TBD     |
 
 ## Code Snippet
 
