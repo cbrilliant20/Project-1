@@ -6,12 +6,12 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(76, 159, 201);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
+  width: 100vw;
   line-height: 1.8;
-  background: rgb(168, 92, 119);
   background: linear-gradient(
     0deg,
     rgba(168, 92, 119, 1) 0%,
@@ -78,7 +78,7 @@ button i {
 
 .card {
   height: 200px;
-  width: 15%;
+  width: 200px;
   background-color: rgb(223, 223, 222, 0.9);
   border-radius: 20px;
   color: rgb(60, 60, 60);
@@ -96,7 +96,7 @@ button i {
 span {
   font-size: 22px;
   color: rgb(24, 52, 99);
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .title {
@@ -110,6 +110,9 @@ span {
   header {
     text-align: center;
   }
+}
+
+@media only screen and (max-width: 1050px) {
   #input {
     width: 250px;
   }
@@ -120,14 +123,21 @@ span {
 
   .card-container {
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
   }
 
   .card {
     height: 100px;
-    /* width: 100px; */
+    /* width: 120px; */
     font-size: 16px;
     flex-basis: 40%;
     margin: 10px 10px;
+    padding: 20px 10px;
+    line-height: 1.3;
+  }
+  .card h3 {
+    margin-top: 10px;
   }
   span {
     font-size: 16px;

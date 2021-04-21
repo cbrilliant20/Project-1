@@ -74,7 +74,8 @@ https://wireframe.cc/FAdp0A
 | Styling cards                        |    L     |      2hr       |      2HR      |     TBD     |
 | Styling fonts, formating etc.        |    L     |      3hr       |      3HR      |     TBD     |
 | Styling Form                         |    H     |      3hr       |      3HR      |     TBD     |
-| Total                                |    H     |     35hrs      |     28hr      |     TBD     |
+| Media Query                          |    H     |      2hr       |      2HR      |     TBD     |
+| Total                                |    H     |     37hrs      |     30hr      |     TBD     |
 
 ## Code Snippet
 
