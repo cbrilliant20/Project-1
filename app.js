@@ -110,3 +110,41 @@ let changeBackground = (data) => {
     backImage.style.backgroundPosition = `center`
   }
 }
+
+// Autofill Functionality, definetly relied on google for help learning this https://dev.to/stephenafamo/how-to-create-an-autocomplete-input-with-plain-javascript
+
+// windows.addEventListener("load", () => {
+//   let searchInput = document.getElementById(`input`)
+//   searchInput.addEventListener("keyup", function(event){hinter(event)})
+
+// window.hinterXHR = newXMLHttpRequest()    
+// })
+
+// const hinter = (event) => {
+//   let input = let.target // Not sure
+//   let fullList = document.getElementById(`full-list`)
+//   let minChars = 3
+
+//   if (input.value.length < minChars) {
+//   return null
+//   } else {
+//     window.hinterXHR.abort()
+//     windows.hinterXHR.onreadystatechange = function () {
+//       if (this.readyState == 4 && this.status == 200) {
+//         let response = JSON.parse(this.responseText)
+//         fullList.innerHTML = ""
+
+//         response.forEach(funtion(item) {
+//           let option =document.createElement(`option`)
+//           option.value = item
+//           fullList.appendChild(option)
+//         })
+//       }
+//     }
+// windows.hinterXHR.open
+// }
+
+// }
+
+
+ 
