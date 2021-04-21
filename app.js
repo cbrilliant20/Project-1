@@ -29,7 +29,7 @@ searchLocation()
 const showWeatherData = (data) => {
   removeMain()
   let mainCard = `
-  <h1 id="main-data">${data.name}<br><small><span>Current Conditions: ${data.weather[0].main}</span></small></h1> 
+  <h1 id="main-data">${data.name}<br><small><span>Conditions: ${data.weather[0].main}</span></small></h1> 
   `
   document
     .querySelector(`.main-card`)
