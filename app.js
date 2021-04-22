@@ -14,6 +14,18 @@ const searchLocation = async () => {
       let response = await axios.get(
         `${DOMAIN}q=${inputValue}${API_KEY}${UNIT}`
       )
+
+      // let matches = locations.filer((location) => {
+      //   const regex = new RegExp(`^${inputValue}`, `gi`)
+      //   return location.name.match(regex) || location.abbr.match(regex)
+      // })
+
+      // if (inputValue.length === 0) {
+      //   matches = []
+      //   matchList.innerHTML = ""
+      // }
+      // outputHtml(matches)
+
       showWeatherData(response.data)
       changeBackground(response.data)
       console.log(response)
@@ -74,35 +86,35 @@ const removeMain = () => {
 let changeBackground = (data) => {
   let backImage = document.querySelector(".body")
   if (`${data.weather[0].main}` === `Clouds`) {
-    backImage.style.backgroundImage = `url(
+    backImage.style.background = `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(
       "https://images.unsplash.com/photo-1504253163759-c23fccaebb55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
     )`
     backImage.style.backgroundSize = `cover`
     backImage.style.backgroundRepeat = `no-repeat`
     backImage.style.backgroundPosition = `center`
   } else if (`${data.weather[0].main}` === `Clear`) {
-    backImage.style.backgroundImage = `url(
+    backImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(
       "https://images.unsplash.com/photo-1617142021386-ac8f0f5aff7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1951&q=80"
     )`
     backImage.style.backgroundSize = `cover`
     backImage.style.backgroundRepeat = `no-repeat`
     backImage.style.backgroundPosition = `center`
   } else if (`${data.weather[0].main}` === `Rain`) {
-    backImage.style.backgroundImage = `url(
+    backImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(
       "https://images.unsplash.com/photo-1518803194621-27188ba362c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1953&q=80"
     )`
     backImage.style.backgroundSize = `cover`
     backImage.style.backgroundRepeat = `no-repeat`
     backImage.style.backgroundPosition = `center`
   } else if (`${data.weather[0].main}` === `Thunder`) {
-    backImage.style.backgroundImage = `url(
+    backImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(
       "https://images.unsplash.com/photo-1594760467013-64ac2b80b7d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80"
     )`
     backImage.style.backgroundSize = `cover`
     backImage.style.backgroundRepeat = `no-repeat`
     backImage.style.backgroundPosition = `center`
   } else if (`${data.weather[0].main}` === `Snow`) {
-    backImage.style.backgroundImage = `url(
+    backImage.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(
       "https://images.pexels.com/photos/3334585/pexels-photo-3334585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     )`
     backImage.style.backgroundSize = `cover`
@@ -117,7 +129,7 @@ let changeBackground = (data) => {
 //   let searchInput = document.getElementById(`input`)
 //   searchInput.addEventListener("keyup", function(event){hinter(event)})
 
-// window.hinterXHR = newXMLHttpRequest()    
+// window.hinterXHR = newXMLHttpRequest()
 // })
 
 // const hinter = (event) => {
@@ -146,5 +158,40 @@ let changeBackground = (data) => {
 
 // }
 
+//  https://www.youtube.com/watch?v=1iysNUrI3lw
 
- 
+// const search = document.getElementById(`input`)
+// const matchList = document.getElementById(`match-list`)
+
+// const autofill = async (inputValue) => {
+//   const response = await axios.get(`${DOMAIN}q=${inputValue}${API_KEY}${UNIT}`)
+//   const locations = await response.json()
+//   // console.log(locations)
+//   let matches = locations.filer((location) => {
+//     const regex = new RegExp(`^${inputValue}`, `gi`)
+//     return location.name.match(regex) || location.abbr.match(regex)
+//   })
+
+//   if (inputValue.length === 0) {
+//     matches = []
+//     matchList.innerHTML = ""
+//   }
+//   outputHtml(matches)
+// }
+
+// const outputHtml = (matches) => {
+//   if (matches.length > 0) {
+//     const html = matches
+//       .map(
+//         (match) => `
+//     <div class="card">
+//     <h4> ${match.name} (${match.abbr})</h4>
+//     </div>
+//     `
+//       )
+//       .join("")
+//     matchList.innerHTML = html
+//   }
+// }
+
+// search.addEventListener("input", () => searchLocation(search.value))
