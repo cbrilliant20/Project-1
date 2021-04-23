@@ -14,21 +14,8 @@ const searchLocation = async () => {
       let response = await axios.get(
         `${DOMAIN}q=${inputValue}${API_KEY}${UNIT}`
       )
-
-      // let matches = locations.filer((location) => {
-      //   const regex = new RegExp(`^${inputValue}`, `gi`)
-      //   return location.name.match(regex) || location.abbr.match(regex)
-      // })
-
-      // if (inputValue.length === 0) {
-      //   matches = []
-      //   matchList.innerHTML = ""
-      // }
-      // outputHtml(matches)
-
       showWeatherData(response.data)
       changeBackground(response.data)
-      console.log(response)
     }
   } catch (error) {
     console.error(error)
@@ -122,76 +109,3 @@ let changeBackground = (data) => {
     backImage.style.backgroundPosition = `center`
   }
 }
-
-// Autofill Functionality, definetly relied on google for help learning this https://dev.to/stephenafamo/how-to-create-an-autocomplete-input-with-plain-javascript
-
-// windows.addEventListener("load", () => {
-//   let searchInput = document.getElementById(`input`)
-//   searchInput.addEventListener("keyup", function(event){hinter(event)})
-
-// window.hinterXHR = newXMLHttpRequest()
-// })
-
-// const hinter = (event) => {
-//   let input = let.target // Not sure
-//   let fullList = document.getElementById(`full-list`)
-//   let minChars = 3
-
-//   if (input.value.length < minChars) {
-//   return null
-//   } else {
-//     window.hinterXHR.abort()
-//     windows.hinterXHR.onreadystatechange = function () {
-//       if (this.readyState == 4 && this.status == 200) {
-//         let response = JSON.parse(this.responseText)
-//         fullList.innerHTML = ""
-
-//         response.forEach(funtion(item) {
-//           let option =document.createElement(`option`)
-//           option.value = item
-//           fullList.appendChild(option)
-//         })
-//       }
-//     }
-// windows.hinterXHR.open
-// }
-
-// }
-
-//  https://www.youtube.com/watch?v=1iysNUrI3lw
-
-// const search = document.getElementById(`input`)
-// const matchList = document.getElementById(`match-list`)
-
-// const autofill = async (inputValue) => {
-//   const response = await axios.get(`${DOMAIN}q=${inputValue}${API_KEY}${UNIT}`)
-//   const locations = await response.json()
-//   // console.log(locations)
-//   let matches = locations.filer((location) => {
-//     const regex = new RegExp(`^${inputValue}`, `gi`)
-//     return location.name.match(regex) || location.abbr.match(regex)
-//   })
-
-//   if (inputValue.length === 0) {
-//     matches = []
-//     matchList.innerHTML = ""
-//   }
-//   outputHtml(matches)
-// }
-
-// const outputHtml = (matches) => {
-//   if (matches.length > 0) {
-//     const html = matches
-//       .map(
-//         (match) => `
-//     <div class="card">
-//     <h4> ${match.name} (${match.abbr})</h4>
-//     </div>
-//     `
-//       )
-//       .join("")
-//     matchList.innerHTML = html
-//   }
-// }
-
-// search.addEventListener("input", () => searchLocation(search.value))

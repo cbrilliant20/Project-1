@@ -12,6 +12,7 @@ body {
   height: 100vh;
   width: 100vw;
   line-height: 1.8;
+  filter: grayscale(50%);
   background: linear-gradient(
     0deg,
     rgba(168, 92, 119, 1) 0%,

@@ -32,7 +32,7 @@ OpenWeather API - https://openweathermap.org/current
 MVP
 
 - Use OpenWeather API for location based weather data. Data to be used outline in wireframe.
-- Leverage user inputted location field to retrieve desired weather information
+- Leverage user input field to retrieve desired weather information
 - Update page background based on current wearther description. I.e. Clear Sky changes to a background iamge of a clear sky.
 
 PostMVP
@@ -62,31 +62,42 @@ https://wireframe.cc/FAdp0A
 | Component                            | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------------------ | :------: | :------------: | :-----------: | :---------: |
 | Project Approval                     |    H     |      2hr       |      2hr      |     2hr     |
-| API Research                         |    H     |      3hr       |      2hr      |     4hr     |
-| PsuedoCode                           |    H     |      2hr       |      1HR      |     TBD     |
+| API Research                         |    H     |      3hr       |      2hr      |     2hr     |
+| PsuedoCode                           |    H     |      2hr       |      1HR      |     1hr     |
 | HTML Structure                       |    H     |      2hr       |      2hr      |     2hr     |
-| API Setup                            |    H     |      3hrs      |      3HR      |     TBD     |
-| Search Functionality                 |    H     |      3hrs      |      2HR      |     TBD     |
-| API - Mainbox, city/description/icon |    H     |      3hrs      |      2HR      |     TBD     |
-| API - Bottom cards                   |    H     |      3hr       |      3HR      |     TBD     |
-| Append to DOM                        |    H     |      3hrs      |      1HR      |     TBD     |
-| Styling backgrounds                  |    L     |      3hr       |      2HR      |     TBD     |
-| Styling cards                        |    L     |      2hr       |      2HR      |     TBD     |
-| Styling fonts, formating etc.        |    L     |      3hr       |      3HR      |     TBD     |
-| Styling Form                         |    H     |      3hr       |      3HR      |     TBD     |
-| Media Query                          |    H     |      2hr       |      2HR      |     TBD     |
-| Total                                |    H     |     37hrs      |     30hr      |     TBD     |
+| API Setup                            |    H     |      3hrs      |      3HR      |     3hr     |
+| Search Functionality                 |    H     |      3hrs      |      2HR      |     2hr     |
+| API - Mainbox, city/description/icon |    H     |      3hrs      |      2HR      |     2hr     |
+| API - Bottom cards                   |    H     |      3hr       |      3HR      |     3hr     |
+| Append to DOM                        |    H     |      3hrs      |      2HR      |     2hr     |
+| Styling backgrounds                  |    L     |      3hr       |      2HR      |     2hr     |
+| Styling cards                        |    L     |      2hr       |      2HR      |     2hr     |
+| Styling fonts, formating etc.        |    L     |      3hr       |      3HR      |     3hr     |
+| Styling Form                         |    H     |      3hr       |      3HR      |     3hr     |
+| Media Query                          |    H     |      2hr       |      3HR      |     3hr     |
+| Total                                |    H     |     37hrs      |     32hr      |    32hr     |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+const removeMain = () => {
+  const removeData = document.querySelector(".main-card")
+  while (removeData.lastChild) {
+    removeData.removeChild(removeData.lastChild)
+  }
+  const removeCard = document.querySelectorAll(".card-container")
+  for (let i = 0; i < removeCard.length; i++) {
+    while (removeCard[i].firstChild) {
+      removeCard[i].removeChild(removeCard[i].firstChild)
+    }
+  }
 }
 ```
 
 ## Change Log
 
 Use this section to document what changes were made and the reasoning behind those changes.
+
+Changed some of the data points due to API accessability.
