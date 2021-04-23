@@ -6,7 +6,7 @@ Weather App
 
 ## Project Description
 
-https://cbrilliant20.github.io/Weather-App/
+[(https://cbrilliant20.github.io/Weather-App/)]
 
 The Weather App will take a location (city or zipcode) input from a user and return the current weather for that geo. By leveraging the OpenWeather API, we can ensure our users are recieving the most up to date weather information avaialable.
 
