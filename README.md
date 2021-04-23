@@ -45,15 +45,15 @@ PostMVP
 
 ## Project Schedule
 
-| Day         | Deliverable                                        | Status     |
-| ----------- | -------------------------------------------------- | ---------- |
-| April 16-18 | Prompt / Wireframes / Priority Matrix / Timeframes | Complete   |
-| April 19    | Project Approval                                   | Complete   |
-| April 20    | Core HTML and JS PsuedoCode                        | Complete   |
-| April 20    | JS Code, API                                       | Complete   |
-| April 21    | Core App Finalized, Base CSS Themes                | Complete   |
-| April 22    | Dyanmic CSS, MVP                                   | Complete   |
-| April 23    | Presentations                                      | Incomplete |
+| Day         | Deliverable                                        | Status   |
+| ----------- | -------------------------------------------------- | -------- |
+| April 16-18 | Prompt / Wireframes / Priority Matrix / Timeframes | Complete |
+| April 19    | Project Approval                                   | Complete |
+| April 20    | Core HTML and JS PsuedoCode                        | Complete |
+| April 20    | JS Code, API                                       | Complete |
+| April 21    | Core App Finalized, Base CSS Themes                | Complete |
+| April 22    | Dyanmic CSS, MVP                                   | Complete |
+| April 23    | Presentations                                      | Complete |
 
 ## Priority Matrix
 
