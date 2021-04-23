@@ -1,5 +1,5 @@
 // Connect API
-const DOMAIN = `http://api.openweathermap.org/data/2.5/weather?`
+const DOMAIN = `https://api.openweathermap.org/data/2.5/weather?`
 const API_KEY = `&APPID=10d288b61704a5239e53beef7ef992cb`
 const UNIT = `&units=imperial`
 
